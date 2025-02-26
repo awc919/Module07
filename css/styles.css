@@ -41,7 +41,7 @@ body {
 article { 
      background-image: url('IMG-1356.JPG');
      background-repeat: no-repeat;
-     float: center; 
+     background-position: top;
      background-size: 55%;
      opacity: 0.89;
      }
@@ -60,9 +60,11 @@ header {
 aside {
         text-align: right;
         float: right;
-        margin-top: 0px;
+        margin-top: 2px;
+        margin-bottom: 2px;
         margin-right: 15px;
         padding-right: 2px;
+        padding-bottom: 2px;
         font-size: 24px;
         }
 
@@ -113,14 +115,14 @@ section {
  #navbar a {
     float: left;
     display: block;
-    color: #FFFACD;
+    color: #000000;
     text-align: center;
     padding: 10px;
     text-decoration: none;
   }
 #navbar a:hover {
     background-color: #D2691E;
-    color: #FFFACD;
+    color: #000000
 }
 
 #navcontent {
@@ -160,19 +162,6 @@ ul li a:hover {
     opacity: 0.89;
 }
 
-#container2 {
-  /*position: sticky;*/
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 10w;
-  height: 10vh;
-  background-image: url("IMG-1356.JPG");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  opacity: 0.89;
-}
 #row1 {
     color: black;
     font-weight: bold;
@@ -236,8 +225,8 @@ footer{
         margin-bottom: 10%;
         position: bottom;
         text-align: center;
-        color: darkorange;
+        color: #000000;
         font-style: italic;
         font-size: 10px;
-        a:link {color: darkgray;}
+        a:link {color: #000000;}
         }   
