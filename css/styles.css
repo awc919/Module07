@@ -3,7 +3,7 @@ body {
      margin-right: 2%; 
      margin-top: 2%; 
      margin-bottom: 2%;
-     background-color: #FFFACD;
+     background-color: whitesmoke;
      font-family: 'Georgia';
      }
 
@@ -39,7 +39,7 @@ body {
 }
 
 article { 
-     background-image: url('IMG-1356.JPG');
+     background-image: url('IMG-1357.JPG');
      background-repeat: no-repeat;
      background-position: top;
      background-size: 55%;
@@ -47,7 +47,7 @@ article {
      }
 
 header {
-    color: #5C4033;
+    color: black;
     margin-top: 20px;
     border: 2px;
     border-color: #5C4033;
@@ -86,10 +86,9 @@ h2 {
     }
 
 p {
-    color: #f2851f;
-    text-shadow: -1px 0 #1a0d01, 0 1px #1a0d01, 1px 0 #1a0d01, 0 -1px #1a0d01;
+    color: black;
     font-size: 22px;
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
     margin-right: 8%;
         }
@@ -97,7 +96,7 @@ p {
 section {
         width: 700px;
         height: 20px;
-        border: 3px solid orange;
+        border: 3px solid green;
         border-radius: 5px;
         font-size: 12px;
         text-align: center;
@@ -105,7 +104,7 @@ section {
          }
 
 #navbar {
-    background-color: #f5a75d;
+    background-color: black;
     position: static; 
     top: 50px; 
     width: 100%; 
@@ -115,13 +114,13 @@ section {
  #navbar a {
     float: left;
     display: block;
-    color: #000000;
+    color: white;
     text-align: center;
     padding: 10px;
     text-decoration: none;
   }
 #navbar a:hover {
-    background-color: #D2691E;
+    background-color: white;
     color: #000000
 }
 
@@ -153,9 +152,8 @@ ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 60vh;
-    background-image: url("IMG-1353.JPG");
+    width: 10vw;
+    height: 10vh;
     background-position:center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -181,7 +179,7 @@ ul li a:hover {
 
 .btn:hover {
     cursor: pointer;
-    background-color: red;
+    background-color: green;
 }
 
 #container3 {
